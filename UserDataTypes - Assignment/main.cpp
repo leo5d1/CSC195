@@ -12,14 +12,14 @@ int main()
     std::cout << "number of employees: ";
     std::cin >> numEmployees;
 
-    for (int i = 0; i < numEmployees; i++)
-    {
-        Employee Read();
-    }
+    Employee e;
 
     for (int i = 0; i < numEmployees; i++)
     {
-        Employee Write();
+        e.Read();
+        std::cout << "\n";
+        e.Write();
+        std::cout << "\n";
     }
 }
 

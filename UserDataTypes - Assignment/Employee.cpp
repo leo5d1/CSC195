@@ -30,10 +30,10 @@ void Employee::Write()
     std::cout << "name: " << name << std::endl;
     std::cout << "age: " << age << std::endl;
     std::cout << "zipcode: " << zipcode << std::endl;
-    std::cout << "wage: " << wage << std::endl;
+    std::cout << "wage: $" << wage << std::endl;
     std::cout << "hours worked(per week): " << hoursWorked << std::endl;
-    std::cout << "weekly gross income: " << grossIncome << std::endl;
-    std::cout << "weekly net income: " << netIncome << std::endl;
-    std::cout << "yearly gross income: " << yearlyGrossIncome << std::endl;
-    std::cout << "yearly net income: " << yearlyNetIncome << std::endl;
+    std::cout << "weekly gross income: $" << grossIncome << std::endl;
+    std::cout << "weekly net income: $" << netIncome << std::endl;
+    std::cout << "yearly gross income: $" << yearlyGrossIncome << std::endl;
+    std::cout << "yearly net income: $" << yearlyNetIncome << std::endl;
 }
